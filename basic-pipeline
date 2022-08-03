@@ -7,9 +7,9 @@ pipeline {
                 echo 'Hello build'
             }
         }
-         stage('dev') {
+         stage('QA') {
             steps {
-                echo 'Hello dev'
+                echo 'Hello QA'
             }
         }
          stage('test') {
