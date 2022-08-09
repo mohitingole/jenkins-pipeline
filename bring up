@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+       stages {
+        stage('pull-code') {
+            steps {
+               sh 'printevn'
+            }
+        }
+    }pipeline {
+    agent any
+       stages {
+        stage('pull-code') {
+            steps {
+               sh 'printevn'
+            }
+        }
+    }
+}
+}
